@@ -9,24 +9,19 @@ export default function GettingStartedScreen() {
       <View className="flex-1 px-8 pb-10 pt-16">
         {/* Hero Section */}
         <View className="flex-1 items-center justify-center">
-          <View className="mb-8 items-center justify-center">
-            {/* Styled Logo Background */}
-            <View className="absolute h-44 w-44 rounded-full bg-orange-50 opacity-50" />
-            <View className="h-36 w-36 items-center justify-center rounded-3xl bg-white shadow-2xl shadow-orange-200">
-              <Image 
-                source={require('../../assets/icon.png')} 
-                className="h-28 w-28"
-                resizeMode="contain"
-              />
-            </View>
+          <View className=" items-center justify-center">
+            {/* Glow effect behind logo */}
+            <View className="opacity-30" />
+            <Image source={require('../../assets/adaptive-icon.png')} className="h-60 w-60" />
           </View>
 
           <Text className="mb-4 text-center text-4xl font-extrabold tracking-tight text-gray-900">
             Learn Smarter with <Text className="text-orange-500">Blob</Text>
           </Text>
-          
+
           <Text className="text-center text-lg leading-7 text-gray-500">
-            Your AI-powered study companion. Transform notes into interactive flashcards and quizzes instantly.
+            Your AI-powered study companion. Transform notes into interactive flashcards and quizzes
+            instantly.
           </Text>
         </View>
 
