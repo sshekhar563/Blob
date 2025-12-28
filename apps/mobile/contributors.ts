@@ -106,4 +106,16 @@ export const CONTRIBUTORS: Contributor[] = [
     name:'Chithra R',
     github: 'Chithra582',
   },
+  {
+    name:'Soham Agarwal',
+    github: 'SohamSDA',
+  },
+  {
+    name: 'Ishant Yadav',
+    github: 'Ishant89op'
+  },
+  {
+    name: 'Lavay Garg',
+    github: 'lavaygarg'
+  }
 ];
