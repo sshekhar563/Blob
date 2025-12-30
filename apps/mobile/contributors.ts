@@ -4,7 +4,6 @@ type Contributor = {
   twitter?: string | undefined;
   website?: string | undefined;
 };
-
 export const CONTRIBUTORS: Contributor[] = [
   {
     name: 'Pranshu Sethi',
@@ -124,14 +123,14 @@ export const CONTRIBUTORS: Contributor[] = [
   },{
     name: 'Aaryan Degama',
     github: 'Aaryan-Degama'
-  }
+  },
   {
   name: "Dharshini D",
   github: 'Dharshin1',
   },
   {
   name: "Sourish Awasthi",
-  github: 'Sourish-Awasthi',
+  github: 'LooninS',
   }
 
 ];
