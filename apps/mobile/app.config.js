@@ -15,7 +15,7 @@ module.exports = ({ config }) => {
       name: 'blob',
       slug: 'blob',
       version: '1.0.0',
-      scheme: 'mobile',
+      scheme: 'blob',
       platforms: ['ios', 'android'],
       web: {
         bundler: 'metro',
