@@ -1,0 +1,17 @@
+export const quotes: string[] = [
+  "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.",
+  "The code you write makes you a programmer. The code you delete makes you a good one.",
+  "Programming isn't about what you know; it's about what you can figure out.",
+  "Talk is cheap. Show me the code.",
+  "Before software can be reusable it first has to be usable.",
+  "Everybody should learn to program a computer because it teaches you how to think.",
+  "Programs must be written for people to read, and only incidentally for machines to execute.",
+  "The best error message is the one that never shows up.",
+  "One of the best programming skills you can have is knowing when to walk away for a while.",
+  "It's not a bug – it's an undocumented feature.",
+  "First, solve the problem. Then, write the code.",
+  "Make it work, make it right, make it fast.",
+  "Clean code always looks like it was written by someone who cares.",
+  "Debugging is twice as hard as writing the code in the first place.",
+  "Code is like humor. When you have to explain it, it's bad.",
+];
